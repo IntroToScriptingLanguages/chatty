@@ -1,6 +1,6 @@
 <?php
 
-$db = new PDO('mysql:host=127.0.0.1; dbname=zmzhang', 'zmzhang', 'lacewood');
+$db = new PDO('mysql:host=127.0.0.1; dbname=zmzhang', 'zmzhang', 'zimingzhang');
 $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_OBJ);
 
 $query = $db->query("
